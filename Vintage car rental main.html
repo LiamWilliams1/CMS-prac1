@@ -1,0 +1,36 @@
+<html>
+<head>
+<title> Vintage car hire </title>
+    <link rel="stylesheet" href="VintageCarRental.css">
+
+</head>
+    <body>
+        
+    <div class="container">
+        <img src="oldcarbanner.jpg" alt= "carbanner">
+        <div class="centered"></div>
+        </div>
+    <h1>
+        
+    </h1>
+<p>
+<img src="image/oldcarbanner.jpg" alt= "carbanner">
+test webpage
+</p>
+        <button id="color"> Change color!</button>
+    <script>
+    document.getElementById('color').onclick = changeColor;
+        var currentColor = "red";
+        function changeColor() {
+                        if(currentColor == "red"){
+                            document.body.style.color = "green";
+                            currentColor = "green";
+                        } else {
+                            document.body.style.color = "red";
+                            currentColor = "red";  
+                        }
+                return currentColor;
+            }
+    </script>
+        </body>
+</html>
